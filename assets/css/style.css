@@ -18234,12 +18234,12 @@ xclip
   margin-bottom: 50px;
   align-items: center;
   border-bottom: 1px solid #DDDDDD;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
   .rts-about-university .rts-section {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: -110px;
   }
 }
 .rts-about-university .rts-section-description {
@@ -22088,7 +22088,7 @@ xclip
 .rts-event-details .event-location-map-iframe {
   min-height: 400px;
   width: 100%;
-  filter: grayscale(1);
+  
   border-radius: 6px;
 }
 .rts-event-speaker .rts-section-title {
@@ -24163,7 +24163,7 @@ xclip
 
 .contact-map {
   height: 470px;
-  filter: grayscale(1);
+  
 }
 
 .side-bar {
