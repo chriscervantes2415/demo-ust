@@ -31,185 +31,133 @@
 
   <body>
     <!-- header area start -->
-    <header
-      style="background-color: #f1c40f"
-      class="header header__sticky v__3"
-    >
-      <div style="background-color: #f1c40f" class="container-fluid">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="header__wrapper">
-              <div class="header__center__content">
-                <!-- menu left side -->
-                <style>
-                  .header__logo {
-                    display: flex;
-                    align-items: center;
-                  }
+    <header style="background-color: #f1c40f;" class="header header__sticky v__3">
+      <div style="background-color: #f1c40f;" class="container-fluid">
+          <div class="row">
+              <div class="col-xl-12">
+                  <div class="header__wrapper">
+                      <div class="header__center__content">
+                          <!-- menu left side -->
+                          <style>
+                              .header__logo {
+                                  display: flex;
+                                  align-items: center;
+                              }
+                      
+                              .header__logo--link {
+                                  display: flex;
+                                  align-items: center;
+                                  text-decoration: none;
+                              }
+                      
+                              .header__logo--link img {
+                                  max-width: 100px; 
+                                  margin-right: 10px; 
+                              }
+                      
+                              .header__logo--text {
+                                  font-size: 14px; 
+                                  line-height: 1.4; 
+                              }
+                          </style>
+                          <div class="header__logo">
+                              <a href="index-three.html" class="header__logo--link">
+                                  <img src="ust assets/new-ust-logo (2).png" alt="unipix">
+                                  <div style="text-align: center;" class="header__logo--text">
+                                      <div style="font-weight: bold; color: black;">University of Santo Tomas-Legazpi</div>
+                                      <div style="font-size: 10px; font-weight: bold; color: black;">The Premier Dominican University of Bicol</div>
+                                  </div>
+                              </a>
+                          </div>
+                          <div class="header__menu">
+                              <div class="navigation">
+                                  <nav class="navigation__menu">
+                                      <ul>
+                                          <style>
+                                              .navigation__menu--item__link:hover {
+                                                  color: gray !important;
+                                              }
+                                          </style>
+                                          <li class="navigation__menu--item">
+                                              <a href="index-three.html" class="navigation__menu--item__link"style="font-weight: bold;color: black; margin-right:-20px">Home</a>
+                                          </li>
 
-                  .header__logo--link {
-                    display: flex;
-                    align-items: center;
-                    text-decoration: none;
-                  }
+                                          <li class="navigation__menu--item has-child has-arrow">
+                                              <a href="javascript:void(0);" class="navigation__menu--item__link"style="font-weight: bold;color: black;">The University</a>
+                                              <ul class="submenu sub__style">
+                                                  <li><a href="about.html">About Us</a></li>
+                                                  <!-- <li><a href="history.html">History</a></li> -->
+                                                  <li><a href="vission_mission_objectives.html">Vision, Mission, and Objectives</a></li>
+                                                  <li><a href="administrators_and_supervisors.html">Administrators and Supervisors</a></li>
+                                                  <li><a href="#">The University Prayer, Hymn, and Seal</a></li>
+                                                  <li><a href="#">Directory</a></li>
+                                                  <li><a href="#">Awards</a></li>
+                                                  <li><a href="#">Memberships & Affiliations</a></li>
+                                                  <li><a href="#">TINGRAW</a></li>
+                                                  
+                                              </ul>
+                                          </li>
+                                          <li class="navigation__menu--item has-child has-arrow">
+                                              <a href="#" class="navigation__menu--item__link"style="font-weight: bold;color: black;">Academics</a>
+                                              <ul class="submenu sub__style">
+                                                  <li><a href="academic.html">Academic Departments</a></li>
+                                                  <li><a href="admission.html">Admission</a></li>
+                                                  <li><a href="academic-area.html">Academic Area</a></li>
+                                                  <li><a href="campus-life.html">Campus Life</a></li>
+                                                  <li><a href="scholarship.html">Scholarship</a></li>
+                                                  <li><a href="tution-fee.html">Tution Fee</a></li>
+                                                  <li><a href="alumni.html">Alumni</a></li>
+                                                  <li><a href="program-single.html">Program Single</a></li>
+                                              </ul>
+                                          </li>
+                                          <li class="navigation__menu--item has-child has-arrow">
+                                              <a href="#" class="navigation__menu--item__link"style="font-weight: bold;color: black;">Event</a>
+                                              <ul class="submenu sub__style">
+                                                  <li><a href="event.html">Event</a></li>
+                                                  <li><a href="event-details.html">Event Details</a></li>
+                                              </ul>
+                                          </li>
+                                          <li class="navigation__menu--item has-child has-arrow">
+                                              <a href="#" class="navigation__menu--item__link"style="font-weight: bold;color: black;">Discover</a>
+                                              <ul class="submenu sub__style">
+                                                  <li><a href="blog.html">achievers</a></li>
+                                                  <li><a href="blog-grid.html">articles</a></li>
+                                                  <li><a href="blog-list.html">bulletins</a></li>
+                                                  <li><a href="blog-details.html">events</a></li>
+                                                  <li><a href="blog-details.html">research </a></li>
+                                                  <li><a href="careers.html">careers </a></li>
+                                              </ul>
+                                          </li>
+                                          <li class="navigation__menu--item">
+                                              <a href="contact.html" class="navigation__menu--item__link"style="font-weight: bold;color: black;">Contact Us</a>
+                                          </li>
 
-                  .header__logo--link img {
-                    max-width: 100px;
-                    margin-right: 10px;
-                  }
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+                          <!-- menu left side end -->
+                          
 
-                  .header__logo--text {
-                    font-size: 14px;
-                    line-height: 1.4;
-                  }
-                </style>
-                <div class="header__logo">
-                  <a href="index-three.html" class="header__logo--link">
-                    <img src="ust assets/new-ust-logo (2).png" alt="unipix" />
-                    <div style="text-align: center" class="header__logo--text">
-                      <div style="font-weight: bold; color: black">
-                        University of Santo Tomas-Legazpi
+                          <!-- menu right side -->
+                          
                       </div>
-                      <div
-                        style="font-size: 10px; font-weight: bold; color: black"
-                      >
-                        The Premier Dominican University of Bicol
+                      <div class="header__right">
+                          <div class="header__right--item">
+                              
+                              <div id="search-btn" class="search__trigger">
+                                  <i class="fa-sharp fa-light fa-magnifying-glass"></i>
+                              </div>
+                              <div id="menu-btn" class="menu__trigger">
+                                  <img src="assets/images/icon/menu__bar-3.svg" alt="bar">
+                              </div>
+                          </div>
                       </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="header__menu">
-                  <div class="navigation">
-                    <nav class="navigation__menu">
-                      <ul>
-                        <style>
-                          .navigation__menu--item__link:hover {
-                            color: gray !important;
-                          }
-                        </style>
-                        <li class="navigation__menu--item">
-                          <a
-                            href="index-three.html"
-                            class="navigation__menu--item__link"
-                            style="
-                              font-weight: bold;
-                              color: black;
-                              margin-right: -20px;
-                            "
-                            >Home</a
-                          >
-                        </li>
-
-                        <li class="navigation__menu--item has-child has-arrow">
-                          <a
-                            href="javascript:void(0);"
-                            class="navigation__menu--item__link"
-                            style="font-weight: bold; color: black"
-                            >The University</a
-                          >
-                          <ul class="submenu sub__style">
-                            <li><a href="administrators_and_supervisors.html">Administrators and Supervisors
-                            </a></li>
-                            <li><a href="athletics.html">Athletics</a></li>
-                            <li class="has-child has-arrow">
-                              <a href="index-three.html">Faculty</a>
-                              <ul class="sub__style">
-                                <li>
-                                  <a href="faculty.html">Faculty Staff</a>
-                                </li>
-                                <li class="has-child">
-                                  <a href="faculty-details.html"
-                                    >Faculty details</a
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                            <li><a href="index-three.html">Research</a></li>
-                          </ul>
-                        </li>
-                        <li class="navigation__menu--item has-child has-arrow">
-                          <a
-                            href="#"
-                            class="navigation__menu--item__link"
-                            style="font-weight: bold; color: black"
-                            >Academics</a
-                          >
-                          <ul class="submenu sub__style">
-                            <li><a href="academic.html">Academic</a></li>
-                            <li><a href="admission.html">Admission</a></li>
-                            <li>
-                              <a href="academic-area.html">Academic Area</a>
-                            </li>
-                            <li><a href="campus-life.html">Campus Life</a></li>
-                            <li><a href="scholarship.html">Scholarship</a></li>
-                            <li><a href="tution-fee.html">Tution Fee</a></li>
-                            <li><a href="alumni.html">Alumni</a></li>
-                            <li>
-                              <a href="program-single.html">Program Single</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="navigation__menu--item has-child has-arrow">
-                          <a
-                            href="#"
-                            class="navigation__menu--item__link"
-                            style="font-weight: bold; color: black"
-                            >Event</a
-                          >
-                          <ul class="submenu sub__style">
-                            <li><a href="event.html">Event</a></li>
-                            <li>
-                              <a href="event-details.html">Event Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="navigation__menu--item has-child has-arrow">
-                          <a
-                            href="#"
-                            class="navigation__menu--item__link"
-                            style="font-weight: bold; color: black"
-                            >Discover</a
-                          >
-                          <ul class="submenu sub__style">
-                            <li><a href="blog.html">achievers</a></li>
-                            <li><a href="blog-grid.html">articles</a></li>
-                            <li><a href="blog-list.html">bulletins</a></li>
-                            <li><a href="blog-details.html">events</a></li>
-                            <li><a href="blog-details.html">research </a></li>
-                            <li><a href="careers.html">careers </a></li>
-                          </ul>
-                        </li>
-                        <li class="navigation__menu--item">
-                          <a
-                            href="contact.html"
-                            class="navigation__menu--item__link"
-                            style="font-weight: bold; color: black"
-                            >Contact</a
-                          >
-                        </li>
-                      </ul>
-                    </nav>
                   </div>
-                </div>
-                <!-- menu left side end -->
-
-                <!-- menu right side -->
               </div>
-              <div class="header__right">
-                <div class="header__right--item">
-                  <div id="search-btn" class="search__trigger">
-                    <i class="fa-sharp fa-light fa-magnifying-glass"></i>
-                  </div>
-                  <div id="menu-btn" class="menu__trigger">
-                    <img src="assets/images/icon/menu__bar-3.svg" alt="bar" />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
       </div>
-    </header>
+  </header>
     <!-- header area end -->
 
     <!-- BREADCRUMB AREA -->
@@ -1211,93 +1159,114 @@ function closeModal() {
     
 
     <!-- footer -->
-    <footer class="footer v__1">
+    <footer class="rts-footer v_2 pt--100 pb--100">
       <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="footer__widget">
-              <div class="footer__widget--logo">
-                <a href="index-2.html"
-                  ><img src="ust assets/new-ust-logo (2).png" alt="logo"
-                /></a>
-              </div>
-              <p class="footer__widget--description">
-                We are passionate education dedicated to providing high-quality
-                resources learners all backgrounds.
-              </p>
-              <div class="footer__widget--social">
-                <ul class="social">
-                  <li class="social__link">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                  </li>
-                  <li class="social__link">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  </li>
-                  <li class="social__link">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                  </li>
-                  <li class="social__link">
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="footer__widget">
-              <h6 class="footer__widget--title">Our Campus</h6>
-              <div class="footer__widget--menu">
-                <ul>
-                  <li><a href="academic.html">Academic</a></li>
-                  <li><a href="athletics.html">Athletics</a></li>
-                  <li><a href="campus-life.html">Campus life</a></li>
-                  <li><a href="reasearch.html">Research</a></li>
-                  <li><a href="academic-area.html">Academic Area</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 col-sm-6">
-            <div class="footer__widget">
-              <h6 class="footer__widget--title">Our Campus</h6>
-              <div class="footer__widget--menu">
-                <ul>
-                  <li><a href="about.html">About </a></li>
-                  <li><a href="tution-fee.html">Tution Fee</a></li>
-                  <li><a href="alumni.html">Alumni</a></li>
-                  <li><a href="faculty.html">Faculty Staff</a></li>
-                  <li><a href="event.html">Event</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="footer__widget">
-              <h6 class="footer__widget--title">Quick Button</h6>
-              <div class="footer__widget--button">
-                <a style="border-color: #f1c40f;" href="admission.html" class="cta__button active">Applying</a>
-                <a style="border-color: #f1c40f;" href="scholarship.html" class="cta__button">scholarship</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer end -->
+          <div class="row gy-5 gy-lg-0">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="rts-footer-widget w-320">
+                      <a href="index-three.html" class="d-block rts-footer-logo mb--40">
+                          <img src="ust assets/new-ust-logo (2).png" alt="Unipix">
+                      </a>
+                      <p>
+                          We are passionate education dedicated to providing high-quality
+                          resources learners all backgrounds.
+                      </p>
+                      <div class="rts-contact-link">
+                          <a href="mailto:contact@reacthemes.com"><i class="fa-sharp fa-light fa-location-dot"></i> Rawis, Legazpi </a>
+                          <p>PLDT:</p>
+                          <a href="callto:121"><i class="fa-thin fa-phone"></i> +63-052-736-0335</a>
+                          <a href="callto:121"><i class="fa-thin fa-phone"></i> +63-052-736-0358</a>
+                          <a href="callto:121"><i class="fa-thin fa-phone"></i> +63-052-736-0368</a>
+                           <!-- Social media icons -->
+                           <style>
+                              .social-icons {
+                                  display: flex;
+                              }
 
-    <!-- footer copyright -->
-    <div style="background-color: #f1c40f" class="rts-footer-copy-right v_1">
-      <div class="container">
-        <div class="row">
-          <div class="rt-center">
-            <p style="color: black; font-weight: bold" class="--p-xs">
-              Copyright &copy; 2019 All Rights Reserved by University of Santo
-              Tomas - Legazpi
-            </p>
+                              .social-icons a {
+                                  margin-right: 10px; /* Adjust as needed */
+                              }
+
+                           </style>
+                          <div class="social-icons">
+                              <a href="https://www.facebook.com/ustlegazpi" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                              <a href="https://twitter.com/ustlegazpi" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+                              <a href="https://www.instagram.com/ustlegazpi/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6">
+                  <div class="rts-footer-widget ">
+                      <h6 class="rt-semi">Our Campus</h6>
+                      <div class="rts-footer-menu">
+                          <ul>
+                              <li><a href="academic.html">Academic</a></li>
+                              <li><a href="athletics.html">Athletics</a></li>
+                              <li><a href="campus-life.html">Campus life</a></li>
+                              <li><a href="reasearch.html">Research</a></li>
+                              <li><a href="academic-area.html">Academic Area</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-4">
+                  <div class="rts-footer-widget ml--30">
+                      <h6 class="rt-semi">Our Campus</h6>
+                      <div class="rts-footer-menu">
+                          <ul>
+                              <li><a href="about.html">About </a></li>
+                              <li><a href="tution-fee.html">Tution Fee</a></li>
+                              <li><a href="alumni.html">Alumni</a></li>
+                              <li><a href="faculty.html">Faculty Staff</a></li>
+                              <li><a href="event.html">Event</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                  <div class="rts-footer-widget ml--30">
+                      <h6 class="rt-semi">Recent Post</h6>
+                      <div class="rts-post-widget">
+                          <ul class="list-unstyled">
+                              <li class="single-post">
+                                  <a href="blog-details.html" class="blog-thumb">
+                                      <img src="ust/upcomingevent1.jpg" alt="latest post">
+                                  </a>
+                                  <div class="post-content">
+                                      <span class="rt-date">May 2, 2023</span>
+                                      <a href="blog-details.html">
+                                          2023 UNIVERSITY RESEARCH FESTIVAL – DAY 4 
+                                      </a>
+                                  </div>
+                              </li>
+                              <li class="single-post">
+                                  <a href="blog-details.html" class="blog-thumb">
+                                      <img src="ust/upcomingevent2.jpg" alt="latest post">
+                                  </a>
+                                  <div class="post-content">
+                                      <span class="rt-date">May 2, 2023</span>
+                                      <a href="blog-details.html">
+                                          2023 UNIVERSITY RESEARCH FESTIVAL – DAY 5
+                                      </a>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
+  </footer>
+  <div style="background-color: #f1c40f;" class="rts-footer-copy-right v_1">
+      <div class="container">
+          <div class="row">
+              <div class="rt-center">
+                  <p style="color: black; font-weight: bold;" class="--p-xs">Copyright &copy; 2019 All Rights Reserved by University of Santo Tomas - Legazpi</p>
+              </div>
+          </div>
+      </div>
+  </div>
     <!-- footer copyright end -->
 
     <!-- offcanvase menu -->
@@ -1360,9 +1329,9 @@ function closeModal() {
                     <a href="#" class="main">The University</a>
                     <ul class="submenu mm-collapse">
                         <li><a class="mobile-menu-link" href="#">About Us</a></li>
-                        <li><a class="mobile-menu-link" href="#">History</a></li>
-                        <li><a class="mobile-menu-link" href="#">Vision, Mission, And Objectives</a></li>
-                        <li><a class="mobile-menu-link" href="#">Administrators And Supervisors</a></li>
+                        <!-- <li><a class="mobile-menu-link" href="history.html">History</a></li> -->
+                        <li><a class="mobile-menu-link" href="vission_mission_objectives.html">Vision, Mission, And Objectives</a></li>
+                        <li><a class="mobile-menu-link" href="administrators_and_supervisors.html">Administrators And Supervisors</a></li>
                         <li><a class="mobile-menu-link" href="#">The University Prayer, Hymn, And Seal</a></li>
                         <li><a class="mobile-menu-link" href="#">Directory</a></li>
                         <li><a class="mobile-menu-link" href="#">Awards</a></li>
